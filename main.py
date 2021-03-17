@@ -216,6 +216,8 @@ if inputPass == password:
 else:
     print("Password did not match")
 
+#############################################################################
+#############################################################################
 
 ## For loops 
 # 1. Make a program that lists the countries in the set
@@ -249,6 +251,9 @@ for x in range(100, 200):
     total += x
 print("Sum of numbers from 100 to 200 is: %d" % total)
 
+#############################################################################
+#############################################################################
+
 ## While loops
 clist = ['Canada', 'USA', 'Mexico', 'Australia']
 i = 0
@@ -278,6 +283,8 @@ while(i < len(x)):
 
 print(total)
 
+#############################################################################
+#############################################################################
 
 ## Functions
 mylist = [1,2,3,4,5]
@@ -337,6 +344,9 @@ def func5():
     print(testvar)
 
 #print(testvar)
+
+#############################################################################
+#############################################################################
 
 ## List
 # 1. Make a program that displays the states in the U.S.
@@ -408,6 +418,9 @@ for state in states:
     if state[0] == 'M':
         print(state)
 
+#############################################################################
+#############################################################################
+
 ## List operations
 y = [6, 4, 2]
 
@@ -424,6 +437,9 @@ y.pop(1)
 y.insert(1, 3)
 print(y)
 
+#############################################################################
+#############################################################################
+
 ## Sorting list
 def el(item):
     return item[1]
@@ -431,6 +447,9 @@ x = [(3,6),(4,7),(5,9),(8,4),(3,1)]
 print(x)
 x.sort(key=el)
 print(x)
+
+#############################################################################
+#############################################################################
 
 ## Range function
 # 1. Create a list of one thousand numbers
@@ -453,6 +472,9 @@ for x in numbers:
 print(even)
 print(odd)
 
+#############################################################################
+#############################################################################
+
 ## Dictionary
 # 1. Make a mapping from countries to country short codes
 usStates = {
@@ -467,6 +489,9 @@ print("US State Code\tState")
 for key in usStates:
     print("%s\t\t%s" % (key, usStates[key]))
 
+
+#############################################################################
+#############################################################################
 
 ## Read File
 
@@ -496,6 +521,9 @@ with open(filename) as f:
 # python will spit out an error that the file cannot be opened due to lack of permissions
 
 
+#############################################################################
+#############################################################################
+
 ## Write File
 # 1. Write the text “Take it easy" to a file
 filename = "writer.txt"
@@ -524,6 +552,9 @@ for person1 in person:
             print(person1 + " meets with " + person2)
 
 # If a normal for loop finishes in n steps O(n), how many steps has a nested loop? it will be n^2 or n^m where m is how many loops inside another loop
+
+#############################################################################
+#############################################################################
 
 ## Slices
 
@@ -555,6 +586,9 @@ def func_five():
 
 print(func_five())
 
+#############################################################################
+#############################################################################
+
 ## Scope
 
 # 1. Add a function reduce amount that changes the variable balance
@@ -570,6 +604,9 @@ def amount(x):
     locVar = 1
 
 #print(locVar) #crash
+
+#############################################################################
+#############################################################################
 
 ## Time and date
 # 1. Print the date in format year-month-day
@@ -602,6 +639,8 @@ except Exception:
 # When would you not use try-except?
 # When you want your application to crash and not 
 
+#############################################################################
+#############################################################################
 
 ### OOP Classes
 
@@ -640,6 +679,9 @@ me = Person("JEff", "Samoerset")
 me.info()
 me.location()
 
+#############################################################################
+#############################################################################
+
 ## Getter and Setter
 
 # 1. Add a variable age and create a getter and setter
@@ -652,6 +694,9 @@ print(me.getAge())
 # So that the class can control its own variables (state). Encapsulation
 # This protects class variables to be changed accidentally by others
 
+#############################################################################
+#############################################################################
+
 ## Modules
 
 # 1. Import the math module and call the sin function
@@ -661,6 +706,9 @@ print(math.sin(60))
 # 2. Create your own module with the function snake()
 import mymodule
 mymodule.snake()
+
+#############################################################################
+#############################################################################
 
 ## Inheritance
 
@@ -696,6 +744,9 @@ mapp.hello2()
 mapp.check()
 
 
+#############################################################################
+#############################################################################
+
 ## Static Method
 
 # 1. Can a method inside a class be called without creating an object?
@@ -710,6 +761,9 @@ PC.checkCPU()
 
 # 2. Why does not everybody like static methods? because you can call a method without an object being created.
 
+
+#############################################################################
+#############################################################################
 
 ## Iterable
 
